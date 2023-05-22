@@ -1,7 +1,0 @@
-streamlit
-pandas
-numpy
-plotly.express
-mysql.connector
-os
-time
