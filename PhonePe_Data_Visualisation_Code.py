@@ -5,7 +5,7 @@ import plotly.express as px
 
 #Import all the files into dataframes
 aggregated_transactions_state_data=pd.read_csv(
-    r'Extracted Data\aggregated_transactions_state_data.csv'
+    r'Extracted Data/aggregated_transactions_state_data.csv'
     )
 aggregated_transactions_state_data['Year_Quarter']=(
     aggregated_transactions_state_data['Year'].astype(str)
@@ -14,7 +14,7 @@ aggregated_transactions_state_data['Year_Quarter']=(
     )
 
 aggregated_users_state_data=pd.read_csv(
-    r'Extracted Data\aggregated_users_state_data.csv'
+    r'Extracted Data/aggregated_users_state_data.csv'
     )
 aggregated_users_state_data['Year_Quarter']=(
     aggregated_users_state_data['Year'].astype(str)
@@ -23,7 +23,7 @@ aggregated_users_state_data['Year_Quarter']=(
     )
 
 aggregated_users_state_data_summary=pd.read_csv(
-    r'Extracted Data\aggregated_users_state_data_summary.csv'
+    r'Extracted Data/aggregated_users_state_data_summary.csv'
     )
 aggregated_users_state_data_summary['Year_Quarter']=(
     aggregated_users_state_data_summary['Year'].astype(str)
@@ -32,7 +32,7 @@ aggregated_users_state_data_summary['Year_Quarter']=(
     )
 
 map_transactions_state_data=pd.read_csv(
-    r'Extracted Data\map_transactions_state_data.csv'
+    r'Extracted Data/map_transactions_state_data.csv'
     )
 map_transactions_state_data['Year_Quarter']=(
     map_transactions_state_data['Year'].astype(str)
@@ -41,7 +41,7 @@ map_transactions_state_data['Year_Quarter']=(
     )
 
 map_users_state_data=pd.read_csv(
-    r'Extracted Data\map_users_state_data.csv'
+    r'Extracted Data/map_users_state_data.csv'
     )
 map_users_state_data['Year_Quarter']=(
     map_users_state_data['Year'].astype(str)
@@ -50,12 +50,12 @@ map_users_state_data['Year_Quarter']=(
     )
 
 district_coordinates=pd.read_csv(
-    r'Extracted Data\districts_longitude_latitude_data.csv'
+    r'Extracted Data/districts_longitude_latitude_data.csv'
     )
 district_coordinates=district_coordinates.drop(['State'],axis=1)
 
 state_coordinates=pd.read_csv(
-    r'Extracted Data\states_longitude_latitude_data.csv'
+    r'Extracted Data/states_longitude_latitude_data.csv'
     )
 state_coordinates=state_coordinates.drop(['code'],axis=1)
 state_coordinates=state_coordinates.sort_values(
