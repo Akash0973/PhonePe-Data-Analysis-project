@@ -1,4 +1,4 @@
-# PhonePe-Data-Analysis-project
+# PhonePe Data Analysis project
 Streamlit app link : https://akash0973-phonepe-data-a-phonepe-data-visualisation-code-wpjdgz.streamlit.app/
 
 This project is made using the data from PhonePe Github repository (https://github.com/PhonePe/pulse)
@@ -27,14 +27,14 @@ Following link is the output of above code: https://akash0973-phonepe-data-a-pho
   
 # Dashboard explaination:
 
-###1 Geo-visualization using plotly express
+## 1 Geo-visualization using plotly express
     
     - The map colours the sates based on the total transaction count in the selected quarter
     - Darker color means higher transaction count
     - By hovering over the circles one can also see various details such as total transaction amount, total registered users and total app openings of differect districts
     - The size of the circles is determined by total transction count in that district
 
-##2 Transaction Analysis:
+## 2 Transaction Analysis:
 
 This part has 4 tabs:
 
@@ -46,7 +46,7 @@ This part has 4 tabs:
     
     2.4 Year-wise analysis: This tab shows a pie chart showcasing the transaction count as well as transaction amount in all years from 2018 to 2022
     
-##3 Users Analysis:
+## 3 Users Analysis:
 
 This part has 4 tabs:
 
@@ -58,15 +58,15 @@ This part has 4 tabs:
     
     3.4 Year-wise analysis: This tab shows a pie chart showcasing the data of new registered usres as well as app openings in all years from 2018 to 2022
 
-##4 Phome brand analysis:
+## 4 Phome brand analysis:
 
 This part has 2 tabs:
 
-    4.1  Country-wide analysis: This tab shows the total registered users of different phone brands in the selected quarter in the whole country
+    4.1 Country-wide analysis: This tab shows the total registered users of different phone brands in the selected quarter in the whole country
     
     4.2 State-wise analysis: This tab shows the total registered users of different phone brands in the selected quarter and selected state
 
-##5 Top 10 states:
+## 5 Top 10 states:
 
 This section shows the top 10 states in total transaction amount, count, registered users ad app openings in the selected quarter
 
