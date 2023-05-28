@@ -70,4 +70,4 @@ This part has 2 tabs:
 
 This section shows the top 10 states in total transaction amount, count, registered users ad app openings in the selected quarter
 
-Lindekin link for demo video of this project: <insert link>
+Lindekin link for demo video of this project: https://www.linkedin.com/posts/akash-kumar-singh-37a820150_phonepe-data-analysis-project-source-code-activity-7068538179263373312-dmmC?utm_source=share&utm_medium=member_desktop
